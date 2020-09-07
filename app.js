@@ -3,7 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const firebase = require("firebase");
-const graphqlHTTP = require("express-graphql");
+const {graphqlHTTP} = require("express-graphql");
 const cors = require("cors");
 
  
