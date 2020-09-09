@@ -1,0 +1,32 @@
+{
+  users {
+    userName
+    Name
+    Age
+  }
+}
+
+
+mutation {
+  addUser(userName: "avatar", Name: "Yurza", Age: "30") {
+    userName
+    Name
+    Age
+  }
+}
+
+
+mutation {
+  updateUser(userName: "Superman", Name: "Novri", Age: "25") {
+    userName
+    Name
+    Age
+  }
+}
+
+
+mutation {
+  removeUser(userName: "blackhat") {
+    userName
+  }
+}
